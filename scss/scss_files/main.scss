@@ -1,0 +1,34 @@
+@import "mixin";
+@import  "var";
+
+
+
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: $color;
+    @include flex_code();
+
+    .main h1{
+        @include font_size(50px);
+        color;$color1
+        &:hover{
+            color
+        
+        }
+    }
+
+}
+.main p{
+    color: $color1;
+    @include font size();
+    letter-spacing: 10px;
+    font-family: monospace;
+}

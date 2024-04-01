@@ -1,0 +1,30 @@
+h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+table{
+    width: 100%;
+}
+th{
+    height: 50px;
+    background-color: aquamarine;
+    
+}
+td{
+    text-align: center;
+    height: 50px;
+}
+tr:nth-child(even){
+    background-color: aliceblue;
+}
+td img{
+    height: 25px;
+    width: 25px;
+    boarder: 3px solid cadetblue
+    border-radius: 50%;
+}

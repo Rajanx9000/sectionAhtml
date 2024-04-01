@@ -1,0 +1,51 @@
+body{
+    background-color:lightgray;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.navbar{
+    background-color: rgb(0, 169, 110);
+    padding: 10px;
+    color:#eb4034;
+
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-right: 30px;
+    width: 100px;
+    overflow: hidden;
+}
+.navbar a:hover{
+    background-color: blue;
+    border: 1px solid color white ;
+    border-radius: 4px;
+}
+
+.parent{
+    width: 100%;
+    height: 50vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+
+.child1{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 0, 162);
+}
+.child2{
+    width: 100px;
+    height: 150px;
+    background-color: rgb(50, 176, 107);
+}
+.child3{
+    width: 150px;
+    height: 100px;
+    background-color: dodgerblue;
+}
